@@ -1,6 +1,10 @@
 import styled from 'styled-components'
 
-export const Container = styled.section`
+interface ContainerProps {
+  hasPaddingRight?: boolean
+}
+
+export const Container = styled.section<ContainerProps>`
   max-width: 100vw;
 
   padding-left: 80px;
