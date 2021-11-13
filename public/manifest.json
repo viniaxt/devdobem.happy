@@ -1,0 +1,15 @@
+{
+  "name": "Health Awareness Promotion Program by the Youth",
+  "short_name": "H.A.P.P.Y",
+  "icons": [
+    {
+      "src": "./small-logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "background_color": "#FFFFFF",
+  "description": "The best Game Store in the world!",
+  "start_url": "/",
+  "theme_color": "#FFFFFF"
+}

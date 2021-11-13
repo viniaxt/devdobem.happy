@@ -1,0 +1,28 @@
+{
+  "name": "happy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export -o ./dist"
+  },
+  "dependencies": {
+    "date-fns": "^2.11.1",
+    "next": "9.5.1",
+    "next-mdx-enhanced": "^5.0.0",
+    "normalize.css": "^8.0.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-multi-carousel": "^2.6.1",
+    "styled-components": "^5.2.1",
+    "styled-icons": "^10.28.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@types/react": "^16.9.32",
+    "@types/styled-components": "^5.1.7",
+    "typescript": "^3.8.3"
+  }
+}
