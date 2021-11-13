@@ -6,7 +6,10 @@ import { Image, Container } from './styles'
 export function OurHistory () {
   return (
     <Container>
-      <Image src="/images/our-history.png" />
+      <Image 
+        alt="Crianças sorrindo olhando para frente" 
+        src="/images/our-history.png" 
+      />
 
       <Section sectionId="historia" title='Nossa história' paddingTop={60}>
         <RegularText text={`Nosso projeto nasceu no bairro El Maadi, no Cairo, em janeiro de 2020, na The Good Shepherd School - uma escola de refugiados, para e por refugiados, majoritariamente do Sudão do Sul e da Síria. Nosso presidente, Bruno Meneghessi, aplicou um curso de atenção em saúde e montou um material para que os professores mantivessem o ensino de temas como higiene pessoal e prevenção de doenças para os alunos.

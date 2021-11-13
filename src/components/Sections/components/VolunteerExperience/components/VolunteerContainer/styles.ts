@@ -51,6 +51,8 @@ export const QuoteContainer = styled.div`
 export const QuoteSymbol = styled.img``
 
 export const Quote = styled.p`
+min-height: 130px;
+max-height: 130px;
 padding: 8px;
 font-family: Poppins;
 font-style: normal;

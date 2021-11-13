@@ -15,33 +15,33 @@ import {
 export function OurTeam () {
   const team = [
     {
-      image: 'https://lh3.googleusercontent.com/ogw/ADGmqu8Hj_Vub3r8m4yI1JyWv7z2of7oIZpPfTau4MMJDw=s32-c-mo',
-      name: 'Vinicius Axt',
+      image: 'https://via.placeholder.com/300X300',
+      name: 'Pessoa 1',
       role: 'Desenvolvedor'
     },
     {
-      image: 'https://lh3.googleusercontent.com/ogw/ADGmqu8Hj_Vub3r8m4yI1JyWv7z2of7oIZpPfTau4MMJDw=s32-c-mo',
-      name: 'Vinicius Axt',
+      image: 'https://via.placeholder.com/300X300',
+      name: 'Pessoa 2',
       role: 'Desenvolvedor'
     },
     {
-      image: 'https://lh3.googleusercontent.com/ogw/ADGmqu8Hj_Vub3r8m4yI1JyWv7z2of7oIZpPfTau4MMJDw=s32-c-mo',
-      name: 'Vinicius Axt',
+      image: 'https://via.placeholder.com/300X300',
+      name: 'Pessoa 3',
       role: 'Desenvolvedor'
     },
     {
-      image: 'https://lh3.googleusercontent.com/ogw/ADGmqu8Hj_Vub3r8m4yI1JyWv7z2of7oIZpPfTau4MMJDw=s32-c-mo',
-      name: 'Vinicius Axt',
+      image: 'https://via.placeholder.com/300X300',
+      name: 'Pessoa 4',
       role: 'Desenvolvedor'
     },
     {
-      image: 'https://lh3.googleusercontent.com/ogw/ADGmqu8Hj_Vub3r8m4yI1JyWv7z2of7oIZpPfTau4MMJDw=s32-c-mo',
-      name: 'Vinicius Axt',
+      image: 'https://via.placeholder.com/300X300',
+      name: 'Pessoa 5',
       role: 'Desenvolvedor'
     },
     {
-      image: 'https://lh3.googleusercontent.com/ogw/ADGmqu8Hj_Vub3r8m4yI1JyWv7z2of7oIZpPfTau4MMJDw=s32-c-mo',
-      name: 'Vinicius Axt',
+      image: 'https://via.placeholder.com/300X300',
+      name: 'Pessoa 6',
       role: 'Desenvolvedor'
     },
   ]
@@ -95,7 +95,10 @@ export function OurTeam () {
             >
             {team.map(({ image, name, role }) => (
               <PersonContainer key={name}>
-                <PersonImage src={image} />
+                <PersonImage
+                  alt={`Foto do integrante do time Happy ${name}`}
+                  src={image} 
+                />
                 <PersonName>{name}</PersonName>
                 <PersonRole>{role}</PersonRole>
               </PersonContainer>

@@ -27,12 +27,16 @@ export function VolunteerContainer({
   return (
     <Container>
       <VolunteerInfoContainer>
-        <VolunteerPicture src={image_url}/>
+        <VolunteerPicture 
+          alt={`Imagem do voluntário ${name}`} 
+          src={image_url}
+        />
+        
         <VolunteerName>{name}</VolunteerName>
       </VolunteerInfoContainer>
 
       <QuoteContainer>
-        <QuoteSymbol src="images/quote.svg" />
+        <QuoteSymbol alt={`Símbolo de citação`} src="images/quote.svg" />
       </QuoteContainer>
 
       <Quote>{quote}</Quote>

@@ -14,15 +14,15 @@ import Carousel, { ResponsiveType } from 'react-multi-carousel'
 /**
  * Component.
  */
-
 export function OurPartners() {
-  const [partnersLogos, setPartnersLogos] = useState<string[]>([
+  const partnersLogos = [
     "images/partners/medicos-do-mundo.png",
-    "http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG",
-    "http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG",
-    "http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG",
-    "http://media.corporate-ir.net/media_files/IROL/17/176060/Oct18/Amazon%20logo.PNG",
-  ]);
+    "https://via.placeholder.com/300X300",
+    "https://via.placeholder.com/300X300",
+    "https://via.placeholder.com/300X300",
+    "https://via.placeholder.com/300X300",
+  ];
+
   const responsive: ResponsiveType = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },

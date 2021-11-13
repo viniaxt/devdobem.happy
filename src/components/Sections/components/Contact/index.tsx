@@ -20,7 +20,10 @@ type Props = {}
 export function Contact({}: Props) {
   return (
     <Container>
-      <Image src='/images/paper-plane.svg' />
+      <Image 
+        alt="Avião de papel com o intuito de enviar mensagem" 
+        src='/images/paper-plane.svg' 
+      />
 
       <Section sectionId="contato" title='Contato' hasUnderline={false}>
         <SectionContainer>

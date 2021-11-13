@@ -19,7 +19,12 @@ export function Card({ title, picture, text }: Props) {
   return (
     <Container>
       <Title>{title}</Title>
-      <Picture src={picture || 'https://via.placeholder.com/520x210'} alt="Project picture"/>
+
+      <Picture 
+        alt={`Imagem do projeto ${title}`} 
+        src={picture || 'https://via.placeholder.com/520x210'} 
+      />
+      
       <Text>{text}</Text>
     </Container>
   )

@@ -12,7 +12,7 @@ import { Container, Logo } from './styles'
 export function Footer() {
   return (
     <Container>
-      <Logo src="images/white-logo.svg" />
+      <Logo alt="Logo da organização Happy" src="images/white-logo.svg" />
       <RegularText isWhite text="H.A.P.P.Y 2021 © All rights reserved" />
     </Container>
   );

@@ -23,7 +23,11 @@ export function Introduction() {
   return (
     <Section id="inicio">
       <Header>
-        <ColoredLogo src="images/logo.svg" alt="H.A.P.P.Y logo" />
+        <ColoredLogo 
+          src="images/logo.svg" 
+          alt="H.A.P.P.Y logo" 
+        />
+        
         <Menu />
       </Header>
 

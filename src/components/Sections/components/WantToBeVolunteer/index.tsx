@@ -28,7 +28,10 @@ export function WantToBeVolunteer({}: Props) {
         </SectionContainer>
       </Section>
 
-      <Image src='/images/puzzle.svg' />
+      <Image 
+        alt="Dois personagens segurando grandes peças de quebra-cabeças"
+        src='/images/puzzle.svg' 
+      />
     </Container>
   );
 }

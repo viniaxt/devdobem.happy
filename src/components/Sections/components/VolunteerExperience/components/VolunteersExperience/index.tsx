@@ -58,6 +58,24 @@ export function VolunteersExperience() {
     }
   }
 
+  const volunteerExperiences = [
+    {
+      name: 'Voluntário 1',
+      image_url: 'https://via.placeholder.com/300X300',
+      quote: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`
+    },
+    {
+      name: 'Voluntário 2',
+      image_url: 'https://via.placeholder.com/300X300',
+      quote: `Experiência do voluntário 2`
+    },
+    {
+      name: 'Voluntário 3',
+      image_url: 'https://via.placeholder.com/300X300',
+      quote: `Experiência do voluntário 3`
+    }
+  ]
+
   return (
     <Section hasPaddingRight={false} sectionId="voluntarios" title="Experiência dos nossos voluntários" hasUnderline>
       <Container>
@@ -68,24 +86,12 @@ export function VolunteersExperience() {
           partialVisible
           responsive={responsive}
         >
-          <VolunteerContainer
-            key={"Pedro"}
-            name={"Pedro 1"}
-            image_url={"https://avatars.githubusercontent.com/u/49204887?v=4"}
-            quote={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
-          />
-          <VolunteerContainer
-            key={"Pedro"}
-            name={"Pedro 2"}
-            image_url={"https://avatars.githubusercontent.com/u/49204887?v=4"}
-            quote={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
-          />
-          <VolunteerContainer
-            key={"Pedro"}
-            name={"Pedro 3"}
-            image_url={"https://avatars.githubusercontent.com/u/49204887?v=4"}
-            quote={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
-          />
+          {volunteerExperiences.map((experience) => (
+            <VolunteerContainer
+              key={experience.image_url}
+              {...experience}
+            />
+          ))}
         </Carousel>
       </Container>
     </Section>
