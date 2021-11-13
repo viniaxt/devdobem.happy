@@ -7,7 +7,7 @@ export const Section = styled.section`
   display: flex;
 
   /* MOBILE */
-  background-image: url(/images/bellowbanner.png);
+  background-image: url(/images/bellow-banner.png);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: contain;
@@ -17,7 +17,7 @@ export const Section = styled.section`
   /* DESKTOP */
   @media (min-width: 600px) {
     height: 100vh;
-    background-image: url(/images/banner.png);
+    background-image: url(/images/initial-banner.png);
     background-repeat: no-repeat;
     background-position: top right;
     background-size: contain;
